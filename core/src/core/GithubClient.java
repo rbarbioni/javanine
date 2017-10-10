@@ -21,6 +21,8 @@ public class GithubClient {
 
         HttpResponse<String> response = HttpClient.newHttpClient()
                 .send(request, HttpResponse.BodyHandler.asString());
+
+        LOGGER.info("Request GET -> " + url);
         return response.body();
     }
 }

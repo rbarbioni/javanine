@@ -1,0 +1,3 @@
+module libb {
+    exports libb;
+}
