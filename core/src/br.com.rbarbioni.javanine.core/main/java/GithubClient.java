@@ -1,4 +1,3 @@
-package core;
 
 import jdk.incubator.http.HttpClient;
 import jdk.incubator.http.HttpRequest;
