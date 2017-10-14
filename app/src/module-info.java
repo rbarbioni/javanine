@@ -1,5 +1,3 @@
-module app {
+module br.com.rbarbioni.javanine.app {
     requires java.logging;
-    requires jdk.incubator.httpclient;
-    requires core;
 }
